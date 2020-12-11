@@ -1,0 +1,24 @@
+{
+    "kitaplar": [
+        {
+            "title": "Sefiller",
+            "author": "Victor Hugo",
+            "id": 1
+        },
+        {
+            "title": "Araba Sevdası",
+            "author": "Recaizade Mahmut Ekrem",
+            "id": 2
+        },
+        {
+            "title": "Kürk Mantolu Madonna",
+            "author": "Sabahattin Ali",
+            "id": 3
+        },
+        {
+            "title": "Çalıkuşu",
+            "author": "Reşat Nuri Güntekin",
+            "id": 4
+        }
+    ]
+}
