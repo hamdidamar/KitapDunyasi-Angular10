@@ -11,6 +11,7 @@ import { KitapSatinAlComponent } from './kitap-satin-al/kitap-satin-al.component
 import { AnaSayfaComponent } from './ana-sayfa/ana-sayfa.component';
 import { HakkindaComponent } from './hakkinda/hakkinda.component';
 import { IletisimComponent } from './iletisim/iletisim.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { IletisimComponent } from './iletisim/iletisim.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

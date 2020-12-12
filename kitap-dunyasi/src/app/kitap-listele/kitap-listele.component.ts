@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {KitapService} from '../kitap.service';
 
 @Component({
   selector: 'app-kitap-listele',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class KitapListeleComponent implements OnInit {
 
-  constructor() { }
+  kitaplar = {};
+  constructor(private kitap: KitapService) { }
 
   ngOnInit(): void {
+    this.kitap.getList().subscribe((result=>{
+      console.warn(result);
+      this.kitaplar = result;
+    }))
   }
 
 }

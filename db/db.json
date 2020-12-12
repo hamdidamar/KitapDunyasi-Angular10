@@ -1,24 +1,36 @@
 {
     "kitaplar": [
         {
-            "title": "Sefiller",
-            "author": "Victor Hugo",
-            "id": 1
+            "id": 1,
+            "ad": "Sefiller",
+            "yazar": "Victor Hugo",
+            "fiyat": 30,
+            "stok": 25,
+            "fotoUrl": "https://i.dr.com.tr/cache/600x600-0/originals/0001698561001-1.jpg"
         },
         {
-            "title": "Araba Sevdası",
-            "author": "Recaizade Mahmut Ekrem",
-            "id": 2
+            "id": 2,
+            "ad": "Araba Sevdası",
+            "yazar": "Recaizade Mahmut Ekrem",
+            "fiyat": 20,
+            "stok": 15,
+            "fotoUrl": "https://i.dr.com.tr/cache/500x400-0/originals/0000000590533-1.jpg"
         },
         {
-            "title": "Kürk Mantolu Madonna",
-            "author": "Sabahattin Ali",
-            "id": 3
+            "id": 3,
+            "ad": "Kürk Mantolu Madonna",
+            "yazar": "Sabahattin Ali",
+            "fiyat": 10,
+            "stok": 25,
+            "fotoUrl": "https://i.dr.com.tr/cache/600x600-0/originals/0000000058245-1.jpg"
         },
         {
-            "title": "Çalıkuşu",
-            "author": "Reşat Nuri Güntekin",
-            "id": 4
+            "id": 4,
+            "ad": "Göğe Bakma Durağı",
+            "yazar": "Turgut Uyar",
+            "fiyat": 40,
+            "stok": 30,
+            "fotoUrl": "https://i.dr.com.tr/cache/600x600-0/originals/0000000264816-1.jpg"
         }
     ]
 }
