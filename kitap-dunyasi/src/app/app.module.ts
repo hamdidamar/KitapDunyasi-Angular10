@@ -12,6 +12,7 @@ import { AnaSayfaComponent } from './ana-sayfa/ana-sayfa.component';
 import { HakkindaComponent } from './hakkinda/hakkinda.component';
 import { IletisimComponent } from './iletisim/iletisim.component';
 import {HttpClientModule} from '@angular/common/http';
+import {ReactiveFormsModule} from '@angular/forms'
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import {HttpClientModule} from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

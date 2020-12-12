@@ -124,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "kitap-dunyasi"
+    }
+  },
+  "defaultProject": "kitap-dunyasi",
+  "cli": {
+    "analytics": "5f04ed8b-04c3-42ae-a993-9b6eefd98725"
+  }
 }

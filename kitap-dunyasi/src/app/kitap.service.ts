@@ -12,4 +12,8 @@ export class KitapService {
   getList(){
     return this.http.get(this.url);
   }
+
+  saveBook(data){
+    return this.http.post(this.url,data)
+  }
 }
