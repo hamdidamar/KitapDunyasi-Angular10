@@ -8,6 +8,9 @@ import { KitapSilComponent } from './kitap-sil/kitap-sil.component';
 import { KitapGuncelleComponent } from './kitap-guncelle/kitap-guncelle.component';
 import { KitapListeleComponent } from './kitap-listele/kitap-listele.component';
 import { KitapSatinAlComponent } from './kitap-satin-al/kitap-satin-al.component';
+import { AnaSayfaComponent } from './ana-sayfa/ana-sayfa.component';
+import { HakkindaComponent } from './hakkinda/hakkinda.component';
+import { IletisimComponent } from './iletisim/iletisim.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { KitapSatinAlComponent } from './kitap-satin-al/kitap-satin-al.component
     KitapSilComponent,
     KitapGuncelleComponent,
     KitapListeleComponent,
-    KitapSatinAlComponent
+    KitapSatinAlComponent,
+    AnaSayfaComponent,
+    HakkindaComponent,
+    IletisimComponent
   ],
   imports: [
     BrowserModule,
