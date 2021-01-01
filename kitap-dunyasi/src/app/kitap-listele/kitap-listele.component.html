@@ -1,7 +1,7 @@
 <div class="text-center" style="display: flex; margin-bottom: 30px;">
     <div style="position: absolute; left: 0; margin: 5px 5px 5px 5px; ">
         <div class="pull-left">
-            <button>Kitap Ekle</button>
+            <button routerLink="/kitaplar/add">Kitap Ekle</button>
         </div>
     </div>
     <div style="position: absolute; right: 0; margin: 0px 5px ,0px 5px; ">
@@ -36,17 +36,17 @@
                         <p class="card-text">Stok : {{item.stok}}</p>
                         <ul class="list-inline">
                             <li class="list-inline-item">
-                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                <a class="social-icon text-xs-center" routerLink="/kitaplar/update/{{item.id}}">
                                     <i class="fa fa-pencil-square-o"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                <a class="social-icon text-xs-center" routerLink="/kitaplar/buy/{{item.id}}">
                                     <i class="fa fa-shopping-cart"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                <a class="social-icon text-xs-center" routerLink="/kitaplar">
                                     <i class="fa fa-trash"></i>
                                 </a>
                             </li>

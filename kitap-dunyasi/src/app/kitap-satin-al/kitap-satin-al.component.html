@@ -1,1 +1,23 @@
-<p>kitap-satin-al works!</p>
+<form [formGroup]="satinAl" class="container" >
+    <div class="form-group">
+        <label>Ad</label>
+        <input type="text" class="form-control" placeholder="Kitap Adı" formControlName="ad">
+    </div>
+    <div class="form-group">
+        <label>Soyad</label>
+        <input type="text" class="form-control" placeholder="Yazar" formControlName="yazar">
+    </div>
+    <div class="form-group">
+        <label>Adres</label>
+        <input type="text" class="form-control" placeholder="Fiyat" formControlName="fiyat">
+    </div>
+    <div class="form-group">
+        <label>Telefon</label>
+        <input type="text" class="form-control" placeholder="Stok" formControlName="stok">
+    </div>
+    <div class="form-group">
+        <label>E-Posta</label>
+        <input type="text" class="form-control" placeholder="Fotoğraf Yolu" formControlName="fotoURL">
+    </div>
+    <button type="submit" class="btn btn-primary">Ekle</button>
+</form>

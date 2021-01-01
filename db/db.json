@@ -11,17 +11,16 @@
     {
       "ad": "Araba Sevdası",
       "yazar": "Recaizade Mahmut Ekrem",
-      "fiyat": 20,
-      "stok": 15,
+      "fiyat": "30",
+      "stok": "40",
       "fotoUrl": "https://i.dr.com.tr/cache/500x400-0/originals/0000000590533-1.jpg",
       "id": 2
-
     },
     {
       "ad": "Kürk Mantolu Madonna",
       "yazar": "Sabahattin Ali",
-      "fiyat": 10,
-      "stok": 25,
+      "fiyat": "30",
+      "stok": "40",
       "fotoUrl": "https://i.dr.com.tr/cache/600x600-0/originals/0000000058245-1.jpg",
       "id": 3
     },
