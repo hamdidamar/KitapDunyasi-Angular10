@@ -1,5 +1,48 @@
-<p *ngFor="let item of kitaplar">
- {{item.ad}}
- {{item.yazar}}
- {{item.fiyat}}
-</p>
+<div class="text-center" style="display: flex; margin-bottom: 30px;">
+    <div style="position: absolute; left: 0; margin: 5px 5px 5px 5px; ">
+        <div class="pull-left">
+            <button>Kitap Ekle</button>
+        </div>
+    </div>
+    <div style="position: absolute; right: 0; margin: 0px 5px ,0px 5px; ">
+        <div class="inner-addon right-addon search-icon">
+            <i class="glyphicon glyphicon-search "></i>
+            <input type="text" placeholder="Search" class="form-control search-box" />
+        </div>
+    </div>
+</div>
+
+
+<div *ngFor="let item of kitaplar" class="col-xs-12 col-sm-6 col-md-4 books-list">
+    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+        <div class="mainflip ">
+            <div class="frontside ">
+                <div class="card">
+                    <div class="card-body book-card book-card-front text-center">
+                        <p><img class=" img-fluid" src={{item.fotoUrl}} alt="card image"></p>
+                        <h4 class="card-title">{{item.ad}}</h4>
+                        <p class="card-text">{{item.yazar}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="backside">
+                <div class="card">
+                    <div class="card-body book-card book-card-front text-center mt-4">
+                        <h4 class="card-title">{{item.ad}}</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero in,
+                            architecto natus sit non dolorum odio repellat fugiat temporibus asperiores alias
+                            earum ratione tenetur a. Nobis ipsa molestiae repellat ipsam.</p>
+                        <p class="card-text">Fiyat : {{item.fiyat}}</p>
+                        <p class="card-text">Stok : {{item.stok}}</p>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <button>Satın Al</button>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

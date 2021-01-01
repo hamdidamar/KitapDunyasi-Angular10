@@ -5,7 +5,7 @@
       "yazar": "Victor Hugo",
       "fiyat": 30,
       "stok": 25,
-      "fotoUrl": "https://i.dr.com.tr/cache/600x600-0/originals/0001698561001-1.jpg",
+      "fotoUrl": "https://i.idefix.com/cache/500x400-0/originals/0000000544410-1.jpg",
       "id": 1
     },
     {
@@ -34,12 +34,20 @@
       "id": 4
     },
     {
-      "ad": "Eylül",
-      "yazar": "Mehmet Rauf",
-      "fiyat": "15",
-      "stok": "5",
-      "fotoURL": "https://i.dr.com.tr/cache/600x600-0/originals/0001721134001-1.jpg",
-      "id": 5
+      "ad": "Göğe Bakma Durağı",
+      "yazar": "Turgut Uyar",
+      "fiyat": 40,
+      "stok": 30,
+      "fotoUrl": "https://i.dr.com.tr/cache/600x600-0/originals/0000000264816-1.jpg",
+      "id": 4
+    },
+    {
+      "ad": "Göğe Bakma Durağı",
+      "yazar": "Turgut Uyar",
+      "fiyat": 40,
+      "stok": 30,
+      "fotoUrl": "https://i.dr.com.tr/cache/600x600-0/originals/0000000264816-1.jpg",
+      "id": 4
     }
   ]
 }
