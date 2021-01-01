@@ -27,7 +27,7 @@
             </div>
             <div class="backside">
                 <div class="card">
-                    <div class="card-body book-card book-card-front text-center mt-4">
+                    <div class="card-body book-card book-card-back text-center mt-4">
                         <h4 class="card-title">{{item.ad}}</h4>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero in,
                             architecto natus sit non dolorum odio repellat fugiat temporibus asperiores alias
@@ -36,7 +36,19 @@
                         <p class="card-text">Stok : {{item.stok}}</p>
                         <ul class="list-inline">
                             <li class="list-inline-item">
-                                <button>Satın Al</button>
+                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                    <i class="fa fa-pencil-square-o"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                    <i class="fa fa-trash"></i>
+                                </a>
                             </li>
 
                         </ul>
