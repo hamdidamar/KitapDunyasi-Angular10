@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {KitapService} from '../kitap.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-kitap-sil',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class KitapSilComponent implements OnInit {
 
-  constructor() { }
+  constructor(private kitap:KitapService, private router: Router) { }
 
   ngOnInit(): void {
   }
 
+  deleteBook(){
+    var kitapid = parseInt(this.router.url.substr(this.router.url.length -1),10);
+    console.warn(kitapid);
+    this.kitap.deleteBook(kitapid).subscribe(result=>{
+      console.warn(kitapid);
+      console.warn(result);
+    })
+  }
 }

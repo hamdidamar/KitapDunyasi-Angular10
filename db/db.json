@@ -48,5 +48,26 @@
       "fotoUrl": "https://i.dr.com.tr/cache/600x600-0/originals/0000000264816-1.jpg",
       "id": 4
     }
+  ],
+  "hesaplar": [
+    {
+      "ad": "Cihan",
+      "kullaniciAdi": "chn",
+      "sifre": "1234",
+      "id": 1
+    }
+  ],
+  "siparisler": [
+    {
+      "kullaniciBilgi": {
+        "ad": "Hamdi",
+        "soyad": "Damar",
+        "adres": "Hatay",
+        "telefon": "21321",
+        "eposta": "damar"
+      },
+      "kitapid": "4",
+      "id": 1
+    }
   ]
 }

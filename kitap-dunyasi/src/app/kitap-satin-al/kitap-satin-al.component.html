@@ -1,23 +1,23 @@
-<form [formGroup]="satinAl" class="container" >
+<form [formGroup]="satinAl" (ngSubmit)="siparisVer()" class="container" >
     <div class="form-group">
         <label>Ad</label>
-        <input type="text" class="form-control" placeholder="Kitap Adı" formControlName="ad">
+        <input type="text" class="form-control" placeholder="Ad" formControlName="ad">
     </div>
     <div class="form-group">
         <label>Soyad</label>
-        <input type="text" class="form-control" placeholder="Yazar" formControlName="yazar">
+        <input type="text" class="form-control" placeholder="Soyad" formControlName="soyad">
     </div>
     <div class="form-group">
         <label>Adres</label>
-        <input type="text" class="form-control" placeholder="Fiyat" formControlName="fiyat">
+        <input type="text" class="form-control" placeholder="Adres" formControlName="adres">
     </div>
     <div class="form-group">
         <label>Telefon</label>
-        <input type="text" class="form-control" placeholder="Stok" formControlName="stok">
+        <input type="text" class="form-control" placeholder="Telefon" formControlName="telefon">
     </div>
     <div class="form-group">
         <label>E-Posta</label>
-        <input type="text" class="form-control" placeholder="Fotoğraf Yolu" formControlName="fotoURL">
+        <input type="text" class="form-control" placeholder="E-Posta" formControlName="eposta">
     </div>
-    <button type="submit" class="btn btn-primary">Ekle</button>
+    <button type="submit" class="btn btn-primary">Satın Al</button>
 </form>
