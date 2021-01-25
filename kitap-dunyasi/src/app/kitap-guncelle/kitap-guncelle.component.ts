@@ -2,6 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router'
 import { KitapService } from '../kitap.service';
+import * as alertify from 'alertifyjs';
+
+
+
 @Component({
   selector: 'app-kitap-guncelle',
   templateUrl: './kitap-guncelle.component.html',
@@ -34,11 +38,13 @@ export class KitapGuncelleComponent implements OnInit {
     })
   }
 
-  collection(){
-    this.kitap.updateBook(this.router.snapshot.params.id,this.kitapGuncelle.value).subscribe((result)=>{
+  collection() {
+    this.kitap.updateBook(this.router.snapshot.params.id, this.kitapGuncelle.value).subscribe((result) => {
       console.warn(result);
-      this.alert = true;
+      alertify.set('notifier', 'position', 'top-center');
+      alertify.success("Kitap güncellemesi başarılı.");
     })
+
   }
 
   closeAlert() {

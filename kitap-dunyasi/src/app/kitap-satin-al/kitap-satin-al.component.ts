@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import {FormGroup,FormControl} from '@angular/forms';
-import {KitapService} from '../kitap.service';
+import { FormGroup, FormControl } from '@angular/forms';
+import { KitapService } from '../kitap.service';
 import { Router } from '@angular/router';
-
+import * as alertify from 'alertifyjs';
 
 @Component({
   selector: 'app-kitap-satin-al',
@@ -19,19 +19,21 @@ export class KitapSatinAlComponent implements OnInit {
     eposta: new FormControl(''),
   })
 
-  constructor(private kitap:KitapService, private router: Router) { }
+  constructor(private kitap: KitapService, private router: Router) { }
 
   ngOnInit(): void {
   }
 
-  
-  siparisVer(){
+
+  siparisVer() {
     var siparisdata = {
-      kullaniciBilgi : this.satinAl.value,
-      kitapid : this.router.url.substr(this.router.url.length -1)
+      kullaniciBilgi: this.satinAl.value,
+      kitapid: this.router.url.substr(this.router.url.length - 1)
     }
-    this.kitap.saveOrder(siparisdata).subscribe((result)=>{
-      console.warn("result",result)
+    this.kitap.saveOrder(siparisdata).subscribe((result) => {
+      console.warn("result", result)
     })
+    alertify.set('notifier', 'position', 'top-center');
+    alertify.success("Siparişiniz başarılı bir şekilde alınmıştır.");
   }
 }

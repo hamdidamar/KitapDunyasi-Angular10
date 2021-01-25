@@ -33,20 +33,36 @@
       "id": 4
     },
     {
-      "ad": "Göğe Bakma Durağı",
-      "yazar": "Turgut Uyar",
-      "fiyat": 40,
-      "stok": 30,
-      "fotoUrl": "https://i.dr.com.tr/cache/600x600-0/originals/0000000264816-1.jpg",
-      "id": 4
+      "ad": "Gezintiler",
+      "yazar": "Can Yücel",
+      "fiyat": 25,
+      "stok": 60,
+      "fotoUrl": "https://i.dr.com.tr/cache/600x600-0/originals/0001742903001-1.jpg",
+      "id": 5
     },
     {
-      "ad": "Göğe Bakma Durağı",
-      "yazar": "Turgut Uyar",
-      "fiyat": 40,
-      "stok": 30,
-      "fotoUrl": "https://i.dr.com.tr/cache/600x600-0/originals/0000000264816-1.jpg",
-      "id": 4
+      "ad": "Sevda Sözleri",
+      "yazar": "Cemal Süreyya",
+      "fiyat": 55,
+      "stok": 14,
+      "fotoUrl": "https://kbimages1-a.akamaihd.net/Images/b7df291a-973e-4b57-8532-18dbdbb7be2f/255/400/False/image.jpg",
+      "id": 6
+    },
+    {
+      "ad": "Çile",
+      "yazar": "Necip Fazıl Kısakürek",
+      "fiyat": 45,
+      "stok": 25,
+      "fotoUrl": "https://kbimages1-a.akamaihd.net/Images/d00d6fc2-da7e-4322-ba85-4f9b443af7d4/255/400/False/image.jpg",
+      "id": 7
+    },
+    {
+      "ad": "Yedi Güzel Adam",
+      "yazar": "Cahit Zarifoğlu",
+      "fiyat": 33,
+      "stok": 25,
+      "fotoUrl": "https://i.dr.com.tr/cache/600x600-0/originals/0000000542028-1.jpg",
+      "id": 8
     }
   ],
   "hesaplar": [
@@ -90,6 +106,50 @@
       },
       "kitapid": "1",
       "id": 3
+    },
+    {
+      "kullaniciBilgi": {
+        "ad": "",
+        "soyad": "",
+        "adres": "",
+        "telefon": "",
+        "eposta": ""
+      },
+      "kitapid": "1",
+      "id": 4
+    },
+    {
+      "kullaniciBilgi": {
+        "ad": "",
+        "soyad": "",
+        "adres": "",
+        "telefon": "",
+        "eposta": ""
+      },
+      "kitapid": "1",
+      "id": 5
+    },
+    {
+      "kullaniciBilgi": {
+        "ad": "",
+        "soyad": "",
+        "adres": "",
+        "telefon": "",
+        "eposta": ""
+      },
+      "kitapid": "1",
+      "id": 6
+    },
+    {
+      "kullaniciBilgi": {
+        "ad": "Hamdi",
+        "soyad": "Damar",
+        "adres": "İzmir",
+        "telefon": "5389311909",
+        "eposta": "hmdmr1@hotmail.com"
+      },
+      "kitapid": "1",
+      "id": 7
     }
   ]
 }

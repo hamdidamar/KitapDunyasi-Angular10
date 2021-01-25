@@ -8,13 +8,14 @@ import {KitapService} from '../kitap.service';
 })
 export class KitapListeleComponent implements OnInit {
 
-  kitaplar = {};
+  
+  items = {};
   constructor(private kitap: KitapService) { }
 
   ngOnInit(): void {
     this.kitap.getList().subscribe((result=>{
       console.warn(result);
-      this.kitaplar = result;
+      this.items = result;
     }))
   }
 

@@ -2,23 +2,23 @@
 <form [formGroup]="kitapEkle" (ngSubmit)="toplaKitap()" id="kitapEkleForm">
     <div class="form-group">
         <label>Kitap Adı</label>
-        <input type="text" class="form-control" placeholder="Kitap Adı" formControlName="ad">
+        <input type="text" class="form-control" placeholder="Kitap Adı" formControlName="ad" required>
     </div>
     <div class="form-group">
         <label>Yazar</label>
-        <input type="text" class="form-control" placeholder="Yazar" formControlName="yazar">
+        <input type="text" class="form-control" placeholder="Yazar" formControlName="yazar" required>
     </div>
     <div class="form-group">
         <label>Fiyat</label>
-        <input type="text" class="form-control" placeholder="Fiyat" formControlName="fiyat">
+        <input type="number" class="form-control" placeholder="Fiyat" formControlName="fiyat" required>
     </div>
     <div class="form-group">
         <label>Stok</label>
-        <input type="text" class="form-control" placeholder="Stok" formControlName="stok">
+        <input type="number" class="form-control" placeholder="Stok" formControlName="stok" required>
     </div>
     <div class="form-group">
         <label>Fotoğraf</label>
-        <input type="text" class="form-control" placeholder="Fotoğraf Yolu" formControlName="fotoURL">
+        <input type="text" class="form-control" placeholder="Fotoğraf Yolu" formControlName="fotoUrl" required>
     </div>
     <div style="margin: center;">
     <button type="submit" class="btn btn-primary" style="background-color: #d0762e;">Ekle</button>

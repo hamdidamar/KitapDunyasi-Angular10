@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import {FormGroup,FormControl} from '@angular/forms';
-import {KitapService} from '../kitap.service';
+import { FormGroup, FormControl } from '@angular/forms';
+import { KitapService } from '../kitap.service';
+import * as alertify from 'alertifyjs';
+
+
 @Component({
   selector: 'app-kitap-ekle',
   templateUrl: './kitap-ekle.component.html',
@@ -13,17 +16,19 @@ export class KitapEkleComponent implements OnInit {
     yazar: new FormControl(''),
     fiyat: new FormControl(''),
     stok: new FormControl(''),
-    fotoURL: new FormControl('')
+    fotoUrl: new FormControl('')
   })
-  
-  constructor(private kitap:KitapService) { }
+
+  constructor(private kitap: KitapService) { }
 
   ngOnInit(): void {
   }
-  toplaKitap(){
+  toplaKitap() {
     //console.warn(this.kitapEkle.value)
-    this.kitap.saveBook(this.kitapEkle.value).subscribe((result)=>{
-      console.warn("result",result)
+    this.kitap.saveBook(this.kitapEkle.value).subscribe((result) => {
+      console.warn("result", result)
     })
+    alertify.set('notifier', 'position', 'top-center');
+    alertify.success("Kitap ekleme işlemi başarılı.");
   }
 }

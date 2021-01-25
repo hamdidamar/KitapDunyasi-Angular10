@@ -12,7 +12,8 @@ import { AnaSayfaComponent } from './ana-sayfa/ana-sayfa.component';
 import { HakkindaComponent } from './hakkinda/hakkinda.component';
 import { IletisimComponent } from './iletisim/iletisim.component';
 import {HttpClientModule} from '@angular/common/http';
-import {ReactiveFormsModule} from '@angular/forms'
+import {ReactiveFormsModule} from '@angular/forms';
+import {AlertifyService} from './alertify.service';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,7 @@ import {ReactiveFormsModule} from '@angular/forms'
     HttpClientModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [AlertifyService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
