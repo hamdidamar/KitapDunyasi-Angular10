@@ -1,5 +1,6 @@
-<form [formGroup]="satinAl" (ngSubmit)="siparisVer()" class="container" >
-    <div class="form-group">
+<div id="kitapSatinAl">   
+<form [formGroup]="satinAl" (ngSubmit)="siparisVer()" class="container" id="satinAlKitap">
+    <div class="form-group" id="formAd">
         <label>Ad</label>
         <input type="text" class="form-control" placeholder="Ad" formControlName="ad">
     </div>
@@ -19,5 +20,8 @@
         <label>E-Posta</label>
         <input type="text" class="form-control" placeholder="E-Posta" formControlName="eposta">
     </div>
-    <button type="submit" class="btn btn-primary">Satın Al</button>
+    <div id="SatinAl">
+    <button type="submit" class="btn btn-primary" id="btnSatinAl">Satın Al</button>
+    </div>
 </form>
+</div>

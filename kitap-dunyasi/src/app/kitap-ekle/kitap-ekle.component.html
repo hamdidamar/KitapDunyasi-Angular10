@@ -1,4 +1,5 @@
-<form [formGroup]="kitapEkle" (ngSubmit)="toplaKitap()">
+<div id="kitapEkleDiv">
+<form [formGroup]="kitapEkle" (ngSubmit)="toplaKitap()" id="kitapEkleForm">
     <div class="form-group">
         <label>Kitap Adı</label>
         <input type="text" class="form-control" placeholder="Kitap Adı" formControlName="ad">
@@ -19,5 +20,8 @@
         <label>Fotoğraf</label>
         <input type="text" class="form-control" placeholder="Fotoğraf Yolu" formControlName="fotoURL">
     </div>
-    <button type="submit" class="btn btn-primary">Ekle</button>
+    <div style="margin: center;">
+    <button type="submit" class="btn btn-primary" style="background-color: #d0762e;">Ekle</button>
+</div>
 </form>
+</div>

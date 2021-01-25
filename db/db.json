@@ -68,6 +68,28 @@
       },
       "kitapid": "4",
       "id": 1
+    },
+    {
+      "kullaniciBilgi": {
+        "ad": "Eyyüp",
+        "soyad": "SERT",
+        "adres": "Hoşnudiye Mah. Porsuk Bulvarı Ahmet Kanatlı Cad.",
+        "telefon": "+905448514518",
+        "eposta": "eyyupsert@outlook.com"
+      },
+      "kitapid": "1",
+      "id": 2
+    },
+    {
+      "kullaniciBilgi": {
+        "ad": "Eyyüp",
+        "soyad": "SERT",
+        "adres": "Hoşnudiye Mah. Porsuk Bulvarı Ahmet Kanatlı Cad.",
+        "telefon": "+905448514518",
+        "eposta": "eypaskdmnqakef@hotmail.com"
+      },
+      "kitapid": "1",
+      "id": 3
     }
   ]
 }
