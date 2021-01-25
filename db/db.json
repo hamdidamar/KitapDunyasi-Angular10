@@ -3,7 +3,7 @@
     {
       "ad": "Sefiller",
       "yazar": "Victor Hugo",
-      "fiyat": 30,
+      "fiyat": 37,
       "stok": 25,
       "fotoUrl": "https://i.idefix.com/cache/500x400-0/originals/0000000544410-1.jpg",
       "id": 1
@@ -63,6 +63,14 @@
       "stok": 25,
       "fotoUrl": "https://i.dr.com.tr/cache/600x600-0/originals/0000000542028-1.jpg",
       "id": 8
+    },
+    {
+      "ad": "Kervan",
+      "yazar": "İskender Pala",
+      "fiyat": 45,
+      "stok": 20,
+      "fotoUrl": "https://i.dr.com.tr/cache/600x600-0/originals/0001904238001-1.jpg",
+      "id": 9
     }
   ],
   "hesaplar": [

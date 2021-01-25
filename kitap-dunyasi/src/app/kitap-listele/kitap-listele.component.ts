@@ -8,6 +8,7 @@ import {KitapService} from '../kitap.service';
 })
 export class KitapListeleComponent implements OnInit {
 
+  searchValue = "";
   items = {};
   constructor(private kitap: KitapService) { }
 
@@ -16,6 +17,11 @@ export class KitapListeleComponent implements OnInit {
       console.warn(result);
       this.items = result;
     }))
+  }
+
+  onChange(UpdatedValue : string) :void 
+  { 
+    this.searchValue = UpdatedValue; 
   }
 
 }

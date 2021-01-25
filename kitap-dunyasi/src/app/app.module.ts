@@ -14,6 +14,8 @@ import { IletisimComponent } from './iletisim/iletisim.component';
 import {HttpClientModule} from '@angular/common/http';
 import {ReactiveFormsModule} from '@angular/forms';
 import {AlertifyService} from './alertify.service';
+import { SearchPipe } from './search.pipe';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -25,13 +27,15 @@ import {AlertifyService} from './alertify.service';
     KitapSatinAlComponent,
     AnaSayfaComponent,
     HakkindaComponent,
-    IletisimComponent
+    IletisimComponent,
+    SearchPipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [AlertifyService],
   bootstrap: [AppComponent]
