@@ -8,7 +8,6 @@ import {KitapService} from '../kitap.service';
 })
 export class KitapListeleComponent implements OnInit {
 
-  
   items = {};
   constructor(private kitap: KitapService) { }
 

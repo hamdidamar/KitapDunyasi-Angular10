@@ -10,6 +10,7 @@ import * as alertify from 'alertifyjs';
   styleUrls: ['./kitap-ekle.component.scss']
 })
 export class KitapEkleComponent implements OnInit {
+ 
 
   kitapEkle = new FormGroup({
     ad: new FormControl(''),
@@ -19,6 +20,7 @@ export class KitapEkleComponent implements OnInit {
     fotoUrl: new FormControl('')
   })
 
+  
   constructor(private kitap: KitapService) { }
 
   ngOnInit(): void {
