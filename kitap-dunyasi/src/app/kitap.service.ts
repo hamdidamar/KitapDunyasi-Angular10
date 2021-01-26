@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class KitapService {
 
-  url = "http://localhost:3000"
+  url = "http://localhost:3000";
   constructor(private http: HttpClient) { }
 
   getList() {
@@ -28,6 +28,12 @@ export class KitapService {
 
   saveOrder(data) {
     return this.http.post(this.url + "/siparisler", data)
+  }
+
+  saveMessage(data) {
+    console.log("aksdasdl");
+    return this.http.post(this.url + "/mesajlar", data)
+   
   }
 
 }

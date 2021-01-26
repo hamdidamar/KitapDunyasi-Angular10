@@ -167,11 +167,11 @@
 		</div>
 		<div class="contact-form">
 			<h1 class="title">Bize Ulaşın</h1>
-			<form action="">
-				<input type="text" name="name" placeholder="Adınız" />
-				<input type="email" name="e-mail" placeholder="E-posta Adresiniz" />
-				<input type="tel" name="phone" placeholder="Telefon Numaranız" />
-				<textarea name="text" id="" rows="8" placeholder="Mesajınız"></textarea>
+			<form [formGroup]="contactForm" (ngSubmit) = "sendMessage()">
+				<input type="text" formControlName="name" name="name" placeholder="Adınız" />
+				<input type="email" formControlName="email" name="e-mail" placeholder="E-posta Adresiniz" />
+				<input type="tel"  formControlName="phone" name="phone" placeholder="Telefon Numaranız" />
+				<textarea name="text" formControlName="message"  rows="8" placeholder="Mesajınız"></textarea>
 				<button class="submit" style="margin-left: 40px;">Gönder</button>
 			</form>
 		</div>
