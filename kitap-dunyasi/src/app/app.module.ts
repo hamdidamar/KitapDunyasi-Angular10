@@ -16,6 +16,7 @@ import {ReactiveFormsModule} from '@angular/forms';
 import {AlertifyService} from './alertify.service';
 import { SearchPipe } from './search.pipe';
 import { FormsModule } from '@angular/forms';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { FormsModule } from '@angular/forms';
     AnaSayfaComponent,
     HakkindaComponent,
     IletisimComponent,
-    SearchPipe
+    SearchPipe,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

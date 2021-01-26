@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { AccountService } from './account.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'kitap-dunyasi';
+  
+  loggedIn = false;
+  constructor(private account:AccountService,private router:Router) { }
+
+  IsLoggedIn(){
+    return this.account.isLoggedIn();
+  }
+
+  logOut(){
+    this.router.navigate([""]);
+    return this.account.logout();
+  }
 }

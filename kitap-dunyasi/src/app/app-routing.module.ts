@@ -7,6 +7,7 @@ import { KitapListeleComponent } from './kitap-listele/kitap-listele.component'
 import {HakkindaComponent} from './hakkinda/hakkinda.component'
 import {AnaSayfaComponent} from './ana-sayfa/ana-sayfa.component'
 import {KitapSatinAlComponent} from './kitap-satin-al/kitap-satin-al.component'
+import { LoginComponent } from './login/login.component';
 const routes: Routes = [
   {
     component: AnaSayfaComponent,
@@ -35,6 +36,10 @@ const routes: Routes = [
   {
     component: KitapSatinAlComponent,
     path: 'kitaplar/buy/:id'
+  },
+  {
+    component: LoginComponent,
+    path: 'login'
   }
   
 ];

@@ -11,6 +11,10 @@
       <li class="nav-item">
         <a class="nav-link" routerLink="hakkinda" >Hakkında</a>
       </li>
+      <li class="nav-item" style="position: absolute;  right: 16px;">
+        <a class="nav-link" *ngIf="IsLoggedIn()==false" routerLink="login" >Login</a>
+        <a class="nav-link" *ngIf="IsLoggedIn()==true" (click)="logOut()" routerLink="login" >Logout</a>
+      </li>
     </ul>
   </div>
 </nav>

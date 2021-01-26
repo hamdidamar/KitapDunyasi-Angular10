@@ -3,7 +3,7 @@
     {
       "ad": "Sefiller",
       "yazar": "Victor Hugo",
-      "fiyat": 37,
+      "fiyat": 40,
       "stok": 25,
       "fotoUrl": "https://i.idefix.com/cache/500x400-0/originals/0000000544410-1.jpg",
       "id": 1
@@ -75,8 +75,8 @@
   ],
   "hesaplar": [
     {
-      "ad": "Cihan",
-      "kullaniciAdi": "chn",
+      "ad": "admin",
+      "kullaniciAdi": "admin",
       "sifre": "1234",
       "id": 1
     }
