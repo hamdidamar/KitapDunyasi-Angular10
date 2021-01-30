@@ -3,7 +3,7 @@
     {
       "ad": "Sefiller",
       "yazar": "Victor Hugo",
-      "fiyat": 40,
+      "fiyat": 75,
       "stok": 25,
       "fotoUrl": "https://i.idefix.com/cache/500x400-0/originals/0000000544410-1.jpg",
       "id": 1
@@ -71,6 +71,14 @@
       "stok": 20,
       "fotoUrl": "https://i.dr.com.tr/cache/600x600-0/originals/0001904238001-1.jpg",
       "id": 9
+    },
+    {
+      "ad": "Gladyo - Operasyon Türkiye",
+      "yazar": " Ceyhun Bozkurt",
+      "fiyat": 19,
+      "stok": 5,
+      "fotoUrl": "https://i.dr.com.tr/cache/600x600-0/originals/0001904984001-1.jpg",
+      "id": 10
     }
   ],
   "hesaplar": [
@@ -158,6 +166,17 @@
       },
       "kitapid": "1",
       "id": 7
+    },
+    {
+      "kullaniciBilgi": {
+        "ad": "Mansur",
+        "soyad": "Toçoğlu",
+        "adres": "İzmir",
+        "telefon": "50000000",
+        "eposta": "mansur@gmail.com"
+      },
+      "kitapid": "3",
+      "id": 8
     }
   ],
   "mesajlar": [
